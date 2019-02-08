@@ -35,7 +35,7 @@ export default function configStore() {
   const store = createStore(
     rootReducer,
     applyMiddleware(...middlewares),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    //window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   )
   return store
 }
